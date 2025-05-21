@@ -15,7 +15,7 @@ function handleLogin(username, password){
     showSuccess('Login Successful!')
     setTimeout(() => {
         
-    }, window.location.href = '/SimpleAuth/hello.html',1500);
+    }, window.location.href = './hello.html',1500);
  }else{
     showError('Invalid Credentials')
  }
