@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SimpleAuth</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="header">Welcome to Dashboard!</h1>
+      <form autocomplete="on">
+        <div class="box">
+          <label for="username">Enter Your Username: </label>
+          <div class="input-group">
+            <img
+              src="../SimpleAuth/images/user-svgrepo-com.svg"
+              alt="User icon"
+            />
+            <input
+              type="text"
+              name="username"
+              id="username"
+              placeholder="Enter your username (test)"
+              autocomplete="username"
+              required
+            />
+          </div>
+        </div>
+        <div class="box">
+          <label for="email">Enter Your Email: </label>
+
+          <div class="input-group">
+            <img
+              src="../SimpleAuth/images/email-1573-svgrepo-com.svg"
+              alt="email-icon"
+            />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email"
+              autocomplete="email"
+              required
+            />
+          </div>
+        </div>
+        <div class="box">
+          <label for="password">Enter Your Password: </label>
+          <div class="input-group">
+            <img
+              src="../SimpleAuth/images/password-minimalistic-svgrepo-com.svg"
+              alt="password"
+            />
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Enter your password (123)"
+              autocomplete="current-password"
+              required
+            />
+          </div>
+        </div>
+        <button type="submit">Login</button>
+      </form>
+    </div>
+<footer>
+    <p>
+        <strong>Note:</strong> For testing purposes, use <b>username:</b> <code>test</code> and <b>password:</b> <code>123</code>. (No database is maintained.)
+    </p>
+</footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+background: #e014d6;
+background: linear-gradient(90deg, rgba(224, 20, 214, 0.96) 0%, rgba(179, 109, 209, 1) 100%, rgba(237, 83, 234, 1) 100%);
+}
+
+input{
+    border: none;
+}
+
+.container{
+    width: 90%;
+    max-width: 400px;
+    margin: 200px auto 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    background-color: rgb(249, 253, 255);
+}
+
+@media (max-width: 600px){
+    .container{
+        margin-top: 100px;
+        padding: 5px;
+    }
+    .box label{
+        font-size: 0.95em;
+    }
+}
+
+.box{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+font-weight: bold;
+}
+
+button{
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 150px;
+}
+
+button:hover{
+    background-color: rgb(234, 0, 255);
+   color: white;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 247, 247);
+    padding: 5px 10px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+.input-group img {
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+}
+.input-group input {
+    border: none;
+    background: transparent;
+    outline: none;
+    color: #222;
+    font-size: 1em;
+    padding: 5px 0;
+}
+
+.header{
+    color: #e014d6;
+}
+
+
+.alert {
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    width: 80%;
+    text-align: center;
+}
+
+.error {
+    background: #ffebee;
+    border: 2px solid #ff1744;
+    color: #d32f2f;
+}
+
+.success {
+    background: #e8f5e9;
+    border: 2px solid #4caf50;
+    color: #2e7d32;
+}
+
+.message{
+    color: rgb(253, 255, 253);    
+}
+
+.message img{
+    width: 200px;
+    height: 200px;
+}
+
+footer{
+position: fixed; bottom: 0; width: 100%;}
